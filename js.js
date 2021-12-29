@@ -37,16 +37,16 @@ function enterName() {
   var role = roleEl.value.toUpperCase();
   switch (role) {
     case "BỐ":
-      roleTxtEl.innerText = "Chào bố!";
+      roleTxtEl.innerText = "Xin Chào bố!";
       break;
     case "MẸ":
-      roleTxtEl.innerText = "Chào mẹ!";
+      roleTxtEl.innerText = "Xin Chào mẹ!";
       break;
     case "ANH TRAI":
-      roleTxtEl.innerText = "Chào anh trai!";
+      roleTxtEl.innerText = "Xin Chào anh trai!";
       break;
     case "EM GÁI":
-      roleTxtEl.innerText = "Chào em gái!";
+      roleTxtEl.innerText = "Xin Chào em gái!";
       break;
     default:
       roleTxtEl.innerText =
