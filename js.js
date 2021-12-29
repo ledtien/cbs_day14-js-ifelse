@@ -25,7 +25,8 @@ function compareNumber() {
     num2 = num3;
     num3 = temp;
   }
-  result.innerText = "Thứ tự 3 số nguyên là: " + num1 + " " + num2 + " " + num3;
+  result.innerText =
+    "Thứ tự 3 số nguyên là: " + num1 + " -->" + num2 + " -->" + num3;
 }
 
 // bai 2
